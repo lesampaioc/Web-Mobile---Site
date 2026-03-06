@@ -22,3 +22,6 @@ Detalhado, 1 paragráfo
 
 4-Imagens do Protótipo:
 Wireframe (Desktop e mobile)
+https://www.figma.com/design/pqUJZ6DFEASzr6ffvVlt43/CM-?node-id=0-1&p=f&t=AkrSjiGLDVAyffG8-0
+
+<img width="924" height="776" alt="image" src="https://github.com/user-attachments/assets/49ee620f-e9a7-42b1-acf4-67199a8569b6" />
