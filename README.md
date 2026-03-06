@@ -4,8 +4,8 @@ Nome: Letícia Sampaio Cosmo
 RA: 10438865
 Nome: Henrique Nellessen
 RA: 10388168
-Nome: Yasmin
-RA: 
+Nome: Yasmin Reis Toledo
+RA: 10419669
 Nome: Luan Souza Costa
 RA: 10750029
 Nome: João Guilherme Leal
