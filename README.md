@@ -8,5 +8,5 @@ Nome: Yasmin
 RA: 
 Nome: Luan Souza Costa
 RA: 10750029
-Nome: 
-RA: 
+Nome: João Guilherme Leal
+RA: 10439526
