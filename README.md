@@ -31,3 +31,50 @@ Wireframe (Desktop e mobile)
 https://www.figma.com/design/pqUJZ6DFEASzr6ffvVlt43/CM-?node-id=0-1&p=f&t=AkrSjiGLDVAyffG8-0
 
 <img width="924" height="776" alt="image" src="https://github.com/user-attachments/assets/49ee620f-e9a7-42b1-acf4-67199a8569b6" />
+
+# Site de Comparação de Custo de Vida
+
+Projeto desenvolvido para a disciplina de Web Mobile.
+
+## Objetivo
+
+Criar um site simples utilizando apenas HTML5 para ajudar usuários a:
+
+- Comparar custo de vida entre cidades
+- Calcular gastos
+- Receber dicas de economia
+
+## Estrutura do Projeto
+
+index.html → página principal  
+style.css → estilização do site  
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+
+## Evolução do Projeto
+
+Na etapa inicial, o projeto foi desenvolvido utilizando apenas HTML5, com foco na estrutura e organização semântica da página.
+
+Nesta etapa, foi adicionado o CSS para estilização do site, incluindo:
+
+- Organização do layout com Flexbox  
+- Alinhamento do header com logo, menu e botões na mesma linha  
+- Criação de botões e caixas com bordas e cantos arredondados  
+- Distribuição das opções principais lado a lado  
+- Aplicação de estrutura visual baseada no wireframe fornecido  
+
+## Como executar
+
+1. Baixar o projeto  
+2. Abrir o arquivo index.html no navegador  
+
+## Autores
+
+Letícia Sampaio Cosmo  
+Henrique Nellessen  
+Yasmin Reis Toledo  
+Luan Souza Costa  
+João Guilherme Leal
