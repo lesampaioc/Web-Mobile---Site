@@ -12,7 +12,7 @@
 
     <header>
         
-        <img src="https://habitability.com.br/wp-content/uploads/2022/04/Cidadade-compacta.png" width="30px" alt="cidade">
+        <img src="logomarca.jpg" width="50px" alt="cidade">
 
         <nav id="main-nav">
             <a href="#">Products</a>
@@ -28,7 +28,7 @@
             <button class="register">Register</button>
         </div>
 
-        <h1>Descubra o custo de vida</h1>
+        <h1 id="titulo">Descubra o custo de vida</h1>
         <h2>Da sua cidade</h2>
 
         <nav id="hero-buttons">
@@ -43,32 +43,75 @@
     <main>
 
         <section>
+            <h2 id="escolha">Escolha seu estado</h2>
+
+            <select id="cidade">
+                <option value="">Selecione</option>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Distrito Federal</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+            </select>
+
+            <p id="resultado"></p>
+        </section>
+
+        <section>
+            <br>
 
             <h2>O que você pode fazer aqui?</h2>
 
             <ul>
-
-                <li>
-                    <a href="comparar.html">
-                        Comparar cidades
-                    </a>
-                </li>
-
-                <li>
-                    <a href="calcular.html">
-                        Calcular gastos mensais
-                    </a>
-                </li>
-
-                <li>
-                    <a href="dicas.html">
-                        Ver dicas de economia
-                    </a>
-                </li>
-
+                <li><a href="comparar.html">Comparar cidades</a></li>
+                <li><a href="calcular.html">Calcular gastos mensais</a></li>
+                <li><a href="dicas.html">Ver dicas de economia</a></li>
             </ul>
 
+            <br>
+
+            <section class="calculadora">
+                <h2>Calcule seus gastos mensais</h2>
+    
+                <input type="number" id="moradia" placeholder="Moradia (R$)">
+                <br><br>
+    
+                <input type="number" id="alimentacao" placeholder="Alimentação (R$)">
+                <br><br>
+    
+                <input type="number" id="transporte" placeholder="Transporte (R$)">
+                <br><br>
+    
+                <button id="btnCalcular">Calcular total</button>
+    
+                <p id="total"></p>
+            </section>
+
         </section>
+
+        <br>
 
     </main>
 
@@ -85,7 +128,7 @@
         </nav>
 
     </footer>
-
+    <script src="script.js"></script>
+    
 </body>
-
 </html>
