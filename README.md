@@ -51,18 +51,7 @@ O site permite que o usuário:
 * style.css → responsável pela estilização e layout
 * script.js → responsável pelas interações e funcionalidades
 
-7- Tecnologias utilizadas:
-
-* HTML5
-  Utilizado para estruturar a página, organizar os elementos como header, main, section e footer, além de criar inputs, botões e listas.
-
-* CSS3
-  Utilizado para estilizar o site, incluindo cores, espaçamentos, alinhamentos e organização do layout. Foram aplicadas propriedades como Flexbox, margin, padding e border-radius para melhorar a aparência visual.
-
-* JavaScript
-  Utilizado para tornar o site interativo. Foram implementadas funções para capturar valores inseridos pelo usuário, realizar cálculos e atualizar o conteúdo da página dinamicamente.
-
-8- Funcionalidades implementadas:
+7- Funcionalidades implementadas:
 
 * Seleção de estado
   O usuário pode escolher um estado brasileiro através de um campo select. Ao selecionar, o sistema exibe na tela qual estado foi escolhido.
@@ -77,7 +66,7 @@ O site permite que o usuário:
   Com base no valor total, o sistema classifica o custo de vida em:
   baixo (até R$ 2000), médio (até R$ 4000) ou alto (acima disso).
 
-9- Evolução do projeto:
+8- Evolução do projeto:
 
 Inicialmente, o projeto foi desenvolvido apenas com HTML, focando na estrutura e organização semântica da página.
 
@@ -85,12 +74,11 @@ Em seguida, foi adicionado o CSS, permitindo melhorar a aparência visual do sit
 
 Por fim, foi implementado JavaScript, adicionando interatividade ao projeto. Com isso, o site passou a responder às ações do usuário, realizando cálculos e exibindo informações em tempo real.
 
-10- Como executar:
+9- Como executar:
 
 * baixar os arquivos do projeto
 * abrir o arquivo index.html em um navegador
-
-11- Autores:
+Autores:
 
 Letícia Sampaio Cosmo
 Henrique Nellessen
