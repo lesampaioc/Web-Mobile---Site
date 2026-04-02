@@ -14,42 +14,70 @@ RA: 10750029
 Nome: João Guilherme Leal
 RA: 10439526
 
-2-Processo de ideação:
+2. Processo de Ideação:
 
-O processo de ideação do projeto começou com uma conversa, com o objetivo de identificar problemas reais do cotidiano que pudessem ser solucionados por meio de uma plataforma digital. Durante essa etapa, surgiram diversas ideias relacionadas a organização financeira, planejamento de vida e acesso à informação. Entre as discussões, percebemos que muitas pessoas têm dificuldade em entender o custo de vida real de diferentes cidades ou bairros, principalmente quando estão pensando em se mudar, começar uma faculdade ou aceitar uma oportunidade de trabalho em outro local.
+O processo de ideação iniciou-se a partir de discussões em grupo com o objetivo de identificar problemas reais do cotidiano que pudessem ser solucionados por meio de uma solução digital.
 
-A partir disso, começamos a discutir possíveis soluções e surgiu a ideia de criar um site que permitisse comparar o custo de vida entre diferentes cidades. O grupo analisou a viabilidade da ideia e decidiu que a plataforma poderia apresentar informações organizadas em categorias como aluguel, transporte, alimentação e lazer.
+Durante esse processo, surgiram diversas ideias relacionadas à:
+  - organização financeira
+  - planejamento de vida
+  - acesso à informação
 
-Após debate entre os integrantes, a ideia foi escolhida por votação, pois foi considerada uma solução útil, prática e com potencial de ajudar muitas pessoas no planejamento financeiro e na tomada de decisões sobre mudança de cidade.
+Ao longo das conversas, identificamos uma dificuldade comum: muitas pessoas não conseguem compreender de forma clara o custo de vida em diferentes cidades ou regiões, especialmente ao considerar mudanças importantes como ingresso em uma universidade ou aceitação de uma oportunidade de trabalho.
 
-3-Carater extensionista:
+A partir dessa necessidade, surgiu a proposta de desenvolver uma plataforma capaz de comparar custos de vida. A solução foi analisada quanto à sua viabilidade e relevância, sendo definida a organização das informações em categorias como:
+  - moradia
+  - transporte
+  - alimentação
+  - lazer
 
-O projeto possui caráter extensionista pois busca oferecer uma ferramenta acessível que auxilia pessoas a compreenderem melhor o custo de vida em diferentes cidades. Muitas vezes, informações sobre gastos básicos como moradia, transporte e alimentação não são facilmente encontradas de forma organizada, o que dificulta o planejamento financeiro de estudantes, trabalhadores ou famílias que desejam se mudar.
+Após discussão e votação entre os integrantes, a ideia foi escolhida por apresentar grande potencial de impacto social, além de ser prática e útil para o público.
 
-A plataforma permite que os usuários tenham uma visão mais clara dos custos envolvidos em viver em determinado local, contribuindo para decisões mais conscientes e planejadas. Dessa forma, o projeto busca gerar impacto positivo ao democratizar o acesso a informações importantes para o planejamento financeiro e qualidade de vida das pessoas.
+3. Caráter Extensionista:
 
-Wireframe (Desktop e Mobile):
-https://www.figma.com/design/pqUJZ6DFEASzr6ffvVlt43/CM-?node-id=0-1&p=f&t=AkrSjiGLDVAyffG8-0
+O projeto possui caráter extensionista por oferecer uma ferramenta acessível que contribui para a democratização da informação.
 
-5- Descrição do projeto:
+Muitas vezes, dados relacionados ao custo de vida não estão organizados de forma clara, dificultando o planejamento financeiro de:
+  - estudantes
+  - trabalhadores
+  - famílias
 
-Site de Comparação de Custo de Vida
+A plataforma busca solucionar esse problema ao fornecer uma visão simplificada e estruturada dos gastos, permitindo decisões mais conscientes e melhor qualidade de vida.
 
-Projeto desenvolvido para a disciplina de Web Mobile, com o objetivo de aplicar conceitos de HTML, CSS e JavaScript na construção de uma página funcional e interativa.
+4. Wireframe:
 
-O site permite que o usuário:
+A interface do projeto foi planejada previamente por meio de um protótipo no Figma:
+  -> https:https://www.figma.com/design/pqUJZ6DFEASzr6ffvVlt43/CM-?node-id=0-1&t=N30BZJerFXZVWZyO-1
 
-* selecione um estado brasileiro
-* visualize opções relacionadas ao custo de vida
-* insira valores de gastos mensais
-* obtenha o total desses gastos
-* receba uma classificação do custo de vida (baixo, médio ou alto)
+5. Funcionalidades:
 
-6- Estrutura do projeto:
+O sistema permite que o usuário:
+  - selecione um estado brasileiro
+  - visualize informações relacionadas ao custo de vida
+  - insira valores de gastos mensais
+  - calcule o total de despesas
+  - receba uma classificação do custo de vida
 
-* index.html → responsável pela estrutura da página
-* style.css → responsável pela estilização e layout
-* script.js → responsável pelas interações e funcionalidades
+6. Funcionalidades Implementadas:
+
+  -> Seleção de estado
+O usuário pode escolher um estado brasileiro através de um campo select, exibindo a escolha na tela.
+
+  -> Cálculo de gastos
+Permite inserir valores de:
+  - moradia
+  - alimentação
+  - transporte
+O sistema realiza automaticamente a soma dos valores.
+
+  -> Validação de dados
+Caso nenhum valor seja informado, o sistema exibe uma mensagem solicitando o preenchimento dos campos.
+
+  -> Classificação do custo de vida
+Com base no valor total:
+  - Baixo: até R$ 2000
+  - Médio: até R$ 4000
+  - Alto: acima de R$ 4000
 
 7- Funcionalidades implementadas:
 
@@ -68,24 +96,23 @@ O site permite que o usuário:
 
 8- Evolução do projeto:
 
-Inicialmente, o projeto foi desenvolvido apenas com HTML, focando na estrutura e organização semântica da página.
+O desenvolvimento ocorreu em etapas:
 
-Em seguida, foi adicionado o CSS, permitindo melhorar a aparência visual do site, organizar os elementos na tela e deixá-lo mais próximo do wireframe proposto.
-
-Por fim, foi implementado JavaScript, adicionando interatividade ao projeto. Com isso, o site passou a responder às ações do usuário, realizando cálculos e exibindo informações em tempo real.
+	1.	HTML
+Estruturação inicial da página com foco em semântica.
+	2.	CSS
+Estilização da interface, organização visual e adaptação ao wireframe.
+	3.	JavaScript
+Implementação das funcionalidades e interatividade, permitindo cálculos e respostas em tempo real.
 
 9- Como executar:
 
-* baixar os arquivos do projeto
-* abrir o arquivo index.html em um navegador
-Autores:
+1. Baixe os arquivos do projeto
+2. Abra o arquivo index.html em qualquer navegador
 
-Letícia Sampaio Cosmo
-Henrique Nellessen
-Yasmin Reis Toledo
-Luan Souza Costa
-João Guilherme Leal
-
-
-Luan Souza Costa  
-João Guilherme Leal
+10. Autores:
+  - Letícia Sampaio Cosmo
+  - Henrique Nellessen
+  - Yasmin Reis Toledo
+  - Luan Souza Costa
+  - João Guilherme Leal
