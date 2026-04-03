@@ -110,7 +110,7 @@ Implementação das funcionalidades e interatividade, permitindo cálculos e res
   - Baixe os arquivos do projeto
   - Abra o arquivo index.html em qualquer navegador
   
-10. Autores:
+10- Autores:
   - Letícia Sampaio Cosmo
   - Henrique Nellessen
   - Yasmin Reis Toledo
