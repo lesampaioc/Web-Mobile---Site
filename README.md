@@ -98,11 +98,11 @@ Com base no valor total:
 
 O desenvolvimento ocorreu em etapas:
 
- -> HTML
+ - HTML
 Estruturação inicial da página com foco em semântica.
- -> CSS
+ - CSS
 Estilização da interface, organização visual e adaptação ao wireframe.
- -> JavaScript
+ - JavaScript
 Implementação das funcionalidades e interatividade, permitindo cálculos e respostas em tempo real.
 
 9- Como executar:
