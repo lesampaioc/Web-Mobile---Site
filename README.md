@@ -106,10 +106,9 @@ Estilização da interface, organização visual e adaptação ao wireframe.
 Implementação das funcionalidades e interatividade, permitindo cálculos e respostas em tempo real.
 
 9- Como executar:
-
-1. Baixe os arquivos do projeto
-2. Abra o arquivo index.html em qualquer navegador
-
+  -Baixe os arquivos do projeto
+  -Abra o arquivo index.html em qualquer navegador
+  
 10. Autores:
   - Letícia Sampaio Cosmo
   - Henrique Nellessen
