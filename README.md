@@ -3,15 +3,15 @@
 
 1-Nome e RA dos Integrantes:
 
-Nome: Letícia Sampaio Cosmo
+  - Nome: Letícia Sampaio Cosmo
 RA: 10438865
-Nome: Henrique Nellessen
+  - Nome: Henrique Nellessen
 RA: 10388168
-Nome: Yasmin Reis Toledo
+  - Nome: Yasmin Reis Toledo
 RA: 10419669
-Nome: Luan Souza Costa
+  - Nome: Luan Souza Costa
 RA: 10750029
-Nome: João Guilherme Leal
+  - Nome: João Guilherme Leal
 RA: 10439526
 
 2- Processo de Ideação:
