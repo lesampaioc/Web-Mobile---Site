@@ -14,7 +14,7 @@ RA: 10750029
 Nome: João Guilherme Leal
 RA: 10439526
 
-2. Processo de Ideação:
+2- Processo de Ideação:
 
 O processo de ideação iniciou-se a partir de discussões em grupo com o objetivo de identificar problemas reais do cotidiano que pudessem ser solucionados por meio de uma solução digital.
 
@@ -33,7 +33,7 @@ A partir dessa necessidade, surgiu a proposta de desenvolver uma plataforma capa
 
 Após discussão e votação entre os integrantes, a ideia foi escolhida por apresentar grande potencial de impacto social, além de ser prática e útil para o público.
 
-3. Caráter Extensionista:
+3- Caráter Extensionista:
 
 O projeto possui caráter extensionista por oferecer uma ferramenta acessível que contribui para a democratização da informação.
 
@@ -44,12 +44,12 @@ Muitas vezes, dados relacionados ao custo de vida não estão organizados de for
 
 A plataforma busca solucionar esse problema ao fornecer uma visão simplificada e estruturada dos gastos, permitindo decisões mais conscientes e melhor qualidade de vida.
 
-4. Wireframe:
+4- Wireframe:
 
 A interface do projeto foi planejada previamente por meio de um protótipo no Figma:
   -> https:https://www.figma.com/design/pqUJZ6DFEASzr6ffvVlt43/CM-?node-id=0-1&t=N30BZJerFXZVWZyO-1
 
-5. Funcionalidades:
+5- Funcionalidades:
 
 O sistema permite que o usuário:
   - selecione um estado brasileiro
@@ -58,7 +58,7 @@ O sistema permite que o usuário:
   - calcule o total de despesas
   - receba uma classificação do custo de vida
 
-6. Funcionalidades Implementadas:
+6- Funcionalidades Implementadas:
 
   -> Seleção de estado
 O usuário pode escolher um estado brasileiro através de um campo select, exibindo a escolha na tela.
