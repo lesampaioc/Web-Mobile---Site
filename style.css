@@ -11,30 +11,29 @@ body {
 }
 
 header {
-    background-color: #ffffff;
-    padding: 20px 40px;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 20px 60px;
+    background: #fff;
     border-bottom: 1px solid #ddd;
-    position: relative; 
 }
 
 header img:first-of-type {
-    position: absolute;
-    left: 40px;
-    top: 20px;
+    justify-self: start;
 }
 
 #main-nav {
     display: flex;
     justify-content: center;
     gap: 25px;
-    margin-bottom: 20px;
 }
 
 #main-nav a {
     text-decoration: none;
     color: #555;
     font-size: 14px;
+    font-weight: 500;
     transition: 0.3s;
 }
 
@@ -43,65 +42,58 @@ header img:first-of-type {
 }
 
 .menu-buttons {
-    position: absolute;
-    right: 40px;
-    top: 15px;
+    justify-self: end;
+    display: flex;
+    gap: 10px;
 }
 
-.menu-buttons button {
-    padding: 6px 12px;
-    margin-left: 8px;
-    border-radius: 6px;
+header h1, section h1 {
+    font-size: 42px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+header h2, section h2 {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button, #hero-buttons a {
+    padding: 10px 20px;
+    border-radius: 8px;
     border: 1px solid #ccc;
-    background: white;
+    background: #f8fafc;
     cursor: pointer;
+    text-decoration: none;
+    color: #1e293b;
+    display: inline-block;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-.menu-buttons .register {
+button:hover, #hero-buttons a:hover {
+    background: #e2e8f0;
+    transform: translateY(-2px);
+}
+
+.register, #calcular {
     background-color: #000;
     color: #fff;
     border: none;
 }
 
-header h1 {
-    font-size: 42px;
-    margin-top: 40px;
-}
-
-header h2 {
-    font-size: 18px;
-    color: #777;
-    margin-bottom: 20px;
+.register:hover, #calcular:hover {
+    background-color: #1e293b;
 }
 
 #hero-buttons {
-    margin-top: 15px;
-}
-
-#hero-buttons a {
-    text-decoration: none;
-    padding: 10px 22px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    margin: 5px;
-    display: inline-block;
-    font-size: 14px;
-    color: #333;
-    background-color: #eee;
-}
-
-#hero-buttons a:hover {
-    background-color: #ddd;
-}
-
-#calcular {
-    background-color: #000;
-    color: #fff;
-    border: none;
-}
-
-#calcular:hover {
-    background-color: #111;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .imagem {
@@ -111,14 +103,12 @@ header h2 {
     margin-top: 30px;
     border-radius: 10px;
 }
+
 main {
     padding: 40px;
     text-align: center;
 }
 
-main h2 {
-    margin-bottom: 20px;
-}
 ul {
     list-style: none;
     display: flex;
@@ -132,6 +122,7 @@ li {
     border-radius: 10px;
     width: 220px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: 0.3s;
 }
 
 li:hover {
@@ -142,6 +133,38 @@ li a {
     text-decoration: none;
     color: #333;
     font-weight: 500;
+}
+
+#cidade {
+    padding: 12px;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.secao {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.escondido {
+    display: none;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
 footer {
@@ -162,22 +185,48 @@ footer p {
     text-decoration: none;
     color: #444;
 }
-section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-#cidade {
-    padding: 12px;
-    font-size: 16px;
-    width: 250px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-.cidade-section {
-    text-align: center;
-    margin-top: 60px;
-}
-#resultado {
-    margin-top: 20px;
-    text-align: center;
+
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header img:first-of-type {
+        justify-self: center;
+        margin-bottom: 10px;
+    }
+
+    #main-nav {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .menu-buttons {
+        justify-self: center;
+        margin-top: 10px;
+    }
+
+    section h1, header h1 {
+        font-size: 28px;
+    }
+
+    section h2, header h2 {
+        font-size: 16px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        width: 90%;
+    }
+
+    .imagem {
+        height: 180px;
+    }
 }
