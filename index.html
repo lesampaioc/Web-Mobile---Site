@@ -11,39 +11,38 @@
 <body>
 
     <header>
-        
-        <img src="logomarca.jpg" width="50px" alt="cidade">
+        <img src="logomarca.jpg" width="50px">
 
         <nav id="main-nav">
-            <a href="#">Products</a>
-            <a href="#">Solutions</a>
-            <a href="#">Community</a>
-            <a href="#">Resources</a>
-            <a href="#">Pricing</a>
-            <a href="#">Contact</a>
+            <a href="#">Inicio</a>
+            <a href="#">Estados</a>
+            <a href="#">Comparações</a>
+            <a href="#">Contato</a>
         </nav>
-            
-        <div class="menu-buttons">
-            <button>Sign in</button>
-            <button class="register">Register</button>
-        </div>
 
+        <section class="menu-buttons">
+            <button>Login</button>
+            <button class="register">Registre-se</button>
+        </section>
+    </header>
+
+    <section id="opcoes">
         <h1 id="titulo">Descubra o custo de vida</h1>
-        <h2>Da sua cidade</h2>
+        <h2>Do seu estado</h2>
 
         <nav id="hero-buttons">
-            <a href="comparar.html">Comparar</a>
-            <a href="calcular.html" id="calcular">Calcular</a>
+            <a href="#" onclick="mostrarSecao('comparar')">Comparar</a>
+            <a href="#" id="calcular" onclick="mostrarSecao('calcularSecao')">Calcular</a>
         </nav>
-        
-        <img class="imagem" src="https://habitability.com.br/wp-content/uploads/2022/04/Cidadade-compacta.png" alt="cidade">
 
-    </header>
+        <img class="imagem"
+            src="https://habitability.com.br/wp-content/uploads/2022/04/Cidadade-compacta.png">
+    </section>
 
     <main>
 
         <section>
-            <h2 id="escolha">Escolha seu estado</h2>
+            <h2>Escolha seu estado</h2>
 
             <select id="cidade">
                 <option value="">Selecione</option>
@@ -80,43 +79,110 @@
         </section>
 
         <section>
-            <br>
-
             <h2>O que você pode fazer aqui?</h2>
 
             <ul>
-                <li><a href="comparar.html">Comparar cidades</a></li>
-                <li><a href="calcular.html">Calcular gastos mensais</a></li>
-                <li><a href="dicas.html">Ver dicas de economia</a></li>
+                <li><a href="#" onclick="event.preventDefault(); mostrarSecao('comparar')">Comparar cidades</a></li>
+                <li><a href="#" onclick="event.preventDefault(); mostrarSecao('calcularSecao')">Calcular gastos mensais</a></li>
+                <li><a href="#" onclick="event.preventDefault(); mostrarSecao('dicas')">Ver dicas de economia</a></li>
             </ul>
-
-            <br>
-
-            <section class="calculadora">
-                <h2>Calcule seus gastos mensais</h2>
-    
-                <input type="number" id="moradia" placeholder="Moradia (R$)">
-                <br><br>
-    
-                <input type="number" id="alimentacao" placeholder="Alimentação (R$)">
-                <br><br>
-    
-                <input type="number" id="transporte" placeholder="Transporte (R$)">
-                <br><br>
-    
-                <button id="btnCalcular">Calcular total</button>
-    
-                <p id="total"></p>
-            </section>
-
         </section>
 
-        <br>
+        <section id="comparar" class="secao escondido">
+            <h2>Comparar estados</h2>
+
+            <select id="cidade1">
+                <option value="">Cidade 1</option>
+                <option value="3550">Acre</option>
+                <option value="2450">Alagoas</option>
+                <option value="2830">Amapá</option>
+                <option value="2990">Amazonas</option>
+                <option value="3210">Bahia</option>
+                <option value="2540">Ceará</option>
+                <option value="4920">Distrito Federal</option>
+                <option value="3400">Espírito Santo</option>
+                <option value="3300">Goiás</option>
+                <option value="2230">Maranhão</option>
+                <option value="3360">Mato Grosso</option>
+                <option value="3330">Mato Grosso do sul</option>
+                <option value="3360">Minas Gerais</option>
+                <option value="3050">Pará</option>
+                <option value="2820">Paraíba</option>
+                <option value="4300">Paraná</option>
+                <option value="2840">Pernambuco</option>
+                <option value="2690">Piauí</option>
+                <option value="3340">Rio de Janeiro</option>
+                <option value="2550">Rio Grande do Norte</option>
+                <option value="3360">Rio Grande do Sul</option>
+                <option value="3100">Rondônia</option>
+                <option value="3710">Roraima</option>
+                <option value="4180">Santa Catarina</option>
+                <option value="4270">São Paulo</option>
+                <option value="2010">Sergipe</option>
+                <option value="3810">Tocantins</option>
+            </select>
+
+            <select id="cidade2">
+                <option value="">Cidade 2</option>
+                <option value="3550">Acre</option>
+                <option value="2450">Alagoas</option>
+                <option value="2830">Amapá</option>
+                <option value="2990">Amazonas</option>
+                <option value="3210">Bahia</option>
+                <option value="2540">Ceará</option>
+                <option value="4920">Distrito Federal</option>
+                <option value="3400">Espírito Santo</option>
+                <option value="3300">Goiás</option>
+                <option value="2230">Maranhão</option>
+                <option value="3360">Mato Grosso</option>
+                <option value="3330">Mato Grosso do sul</option>
+                <option value="3360">Minas Gerais</option>
+                <option value="3050">Pará</option>
+                <option value="2820">Paraíba</option>
+                <option value="4300">Paraná</option>
+                <option value="2840">Pernambuco</option>
+                <option value="2690">Piauí</option>
+                <option value="3340">Rio de Janeiro</option>
+                <option value="2550">Rio Grande do Norte</option>
+                <option value="3360">Rio Grande do Sul</option>
+                <option value="3100">Rondônia</option>
+                <option value="3710">Roraima</option>
+                <option value="4180">Santa Catarina</option>
+                <option value="4270">São Paulo</option>
+                <option value="2010">Sergipe</option>
+                <option value="3810">Tocantins</option>
+            </select>
+
+            <br><br>
+            <button onclick="compararCidades()">Comparar</button>
+            <p id="resultadoComparacao"></p>
+        </section>
+
+        <section id="calcularSecao" class="secao escondido">
+            <h2>Calcular gastos mensais</h2>
+
+            <input type="number" id="moradia" placeholder="Moradia">
+            <input type="number" id="alimentacao" placeholder="Alimentação">
+            <input type="number" id="transporte" placeholder="Transporte">
+
+            <br><br>
+            <button onclick="calcularGastos()">Calcular</button>
+            <p id="resultadoGastos"></p>
+        </section>
+
+        <section id="dicas" class="secao escondido">
+            <h2>Dicas de economia</h2>
+            <ul>
+                <li>Evite compras por impulso</li>
+                <li>Use transporte público</li>
+                <li>Pesquise preços</li>
+                <li>Tenha reserva financeira</li>
+            </ul>
+        </section>
 
     </main>
 
     <footer>
-
         <p>Entre em contato</p>
         <p>Nossas redes</p>
         <p>Suporte</p>
@@ -126,9 +192,9 @@
             <a href="#">LinkedIn</a>
             <a href="#">Contato</a>
         </nav>
-
     </footer>
+
     <script src="script.js"></script>
-    
+
 </body>
 </html>
