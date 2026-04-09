@@ -42,6 +42,7 @@ Além disso, a proposta pode ser facilmente ampliada para incluir mais cidades, 
 
 Wireframe (Desktop e Mobile):  
 https://www.figma.com/design/pqUJZ6DFEASzr6ffvVlt43/CM-?node-id=0-1&p=f&t=AkrSjiGLDVAyffG8-0  
+<img width="977" height="811" alt="wireframe" src="https://github.com/user-attachments/assets/66f4688d-dac6-4fb2-aeed-fb5e2ed2f9ac" />
 
 O wireframe foi criado para planejar a estrutura e organização do site antes do desenvolvimento.
 
