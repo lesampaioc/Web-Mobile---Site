@@ -69,7 +69,8 @@ A plataforma permite que o usuário:
 •⁠  ⁠visualize funcionalidades disponíveis  
 •⁠  ⁠insira valores de gastos mensais  
 •⁠  ⁠calcule o total de despesas  
-•⁠  ⁠receba uma classificação do custo de vida (baixo, médio ou alto)  
+•⁠  ⁠receba uma classificação do custo de vida (baixo, médio ou alto) 
+•  navegar entre páginas utilizando rotas simples e rotas dinâmicas
 
 ---
 
@@ -92,6 +93,9 @@ Responsável pela estilização da aplicação, utilizando propriedades como Fle
 ### JavaScript  
 Utilizado para implementar a lógica do sistema, incluindo captura de dados do usuário, validação de entradas, cálculos e atualização dinâmica da interface.
 
+### Next.js  
+Framework utilizado para organização da aplicação web, criação de rotas simples e dinâmicas, além de melhorar a navegação e estrutura do projeto.
+
 ---
 
 ## 8 - Funcionalidades Implementadas
@@ -112,6 +116,12 @@ Com base no total calculado:
 •⁠  ⁠até R$ 4000 → médio  
 •⁠  ⁠acima de R$ 4000 → alto  
 
+### Navegação entre páginas
+O sistema possui rotas simples para navegação entre seções do site.
+
+### Rotas dinâmicas
+As rotas dinâmicas permitem exibir conteúdos diferentes com base nas informações selecionadas pelo usuário.
+
 ---
 
 ## 9 - Evolução do Projeto
@@ -124,6 +134,8 @@ Na etapa de CSS, o layout foi desenvolvido para se aproximar do wireframe propos
 
 Por fim, foi implementado JavaScript, trazendo interatividade ao sistema. A aplicação passou a responder às ações do usuário, realizando cálculos e exibindo resultados em tempo real.
 
+Além disso, a implementação das rotas contribuiu para uma experiência mais organizada e dinâmica, permitindo carregar conteúdos específicos de acordo com a interação do usuário.
+
 De forma geral, o projeto evoluiu tanto na parte visual quanto na parte lógica, incorporando melhorias estruturais e funcionais ao longo do desenvolvimento.
 
 ---
@@ -132,6 +144,9 @@ De forma geral, o projeto evoluiu tanto na parte visual quanto na parte lógica,
 
 1.⁠ ⁠Baixar os arquivos do projeto  
 2.⁠ ⁠Abrir o arquivo *index.html* em um navegador  
+3. Executar o comando:
+
+npm run dev
 
 ---
 
